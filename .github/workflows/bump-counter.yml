@@ -22,8 +22,8 @@ jobs:
       - run: python counter.py
 
       - run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "enrico1c"
+          git config user.email "159532644+enrico1c@users.noreply.github.com"
           git add counter.txt
           git commit -m "Bump counter"
           git push
